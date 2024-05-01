@@ -1,0 +1,1150 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "MarkOT-Bold", sans-serif;
+    
+}
+
+
+
+.main{
+    height: 4080px;
+    
+   width: 100%;
+    background: linear-gradient(to bottom, #fbb517 0%, #ffe600 100%);
+    display: grid;
+    justify-content: center;
+    overflow-x: hidden;
+    
+    
+}
+
+nav{
+    width: 1170px;
+    height: 92px;
+    background: #ffe600;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.logo{
+    height: 92px;
+    width: 92px;
+    padding-left:20px;
+
+    
+}
+.logo img{
+   height: 92px;
+}
+
+.options{
+    margin-left: 91px;
+    display: flex;
+    
+}
+
+.options button{
+    
+    color: black;
+    background-color: transparent;
+    font-size: 18px;
+    
+    font-weight: bolder;
+    letter-spacing: -0.05em;
+    
+}
+
+.high{
+    height: 34px;
+}
+
+.border{
+    border-radius: 26px;
+    border-color: transparent;
+}
+.Products{
+    width: 97.3px;
+    margin-left: -2px;
+}
+.Aboutus{
+    width: 99.89px;
+    margin-left: 12px;
+}
+
+.Recipes{
+    width: 85.84px;
+    margin-left: 11px;
+}
+.Flavor{
+  width: 203.99px;
+  margin-left: 11px;
+}
+.Where{
+  width:133.91px;
+  margin-left: 9px;
+}
+.Pep{
+  width:209.86px;
+  margin-left: 9px;
+}
+
+.ES{
+    border-radius: 0;
+    margin-left: 12px;
+    border-width: 1px;
+    height: 31px;
+    padding-top: 4px;
+    width: 36px;
+    padding-right: 1px;
+}
+
+.options button:hover{
+    background-color: #da291c;
+    color: #fff;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.image{
+    height: 22px;
+    width: 24px;
+    margin-left: 16px;
+    margin-top: 6px;
+    border: black;
+    background-color: #ffe600;
+}
+
+.image:hover{
+    cursor: pointer;
+}
+
+.animation{
+   
+    height: 425px;
+    width: 1170px;
+    background: white;
+    margin-top: -225px;
+}
+
+.products{
+    height: 771px;
+    width: 1170px;
+    background-color:#ee3124;
+    
+    margin-top: -225px;
+    position: relative;
+}
+.products1{
+    height: 50%;
+    width: 1170px;
+   
+    background: no-repeat;
+    position:absolute;
+    
+
+}
+.products2{
+    height: 50%;
+    width:1170px;
+    
+    background: no-repeat;
+    margin-top: 442px;
+    background-position: center;
+    position:absolute;
+}
+
+.productshead{
+    margin-top: 27px;
+    height: 95px;
+    width: 400px;
+    position: absolute;
+    margin-left: 82px;
+}
+
+.rightarrow{
+    height: 51px;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: -25px;
+    
+}
+
+.rightarrow:hover{
+      opacity: 0.5;
+      cursor: pointer;
+}
+
+.buttonright{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: transparent;
+    position: absolute;
+    margin-left: 1090px;
+    margin-top: 387px;
+}
+
+.leftarrow{
+    height: 51px;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: -25px;
+    opacity: 1;
+    
+}
+.leftarrow:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+.buttonleft{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: transparent;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 387px;
+   
+}
+
+h2{
+    font-size: 84px;
+    color: white;
+}
+
+
+.lays{
+    height: 516px;
+    width: 335px;
+    background-color: #f8931f;
+    position: absolute;
+    margin-top: 176px;
+    margin-left: 82px;
+   
+}
+.lays:hover{
+    cursor: pointer;
+}
+.laysimage{
+        height: 335px;
+        width: 335px;
+        
+    
+}
+
+.layscontent{
+    height: 40px;
+    width: 150px;
+    color: white;
+    margin-top: 17px;
+    font-size: 29px;
+    margin-left: 16px;
+}
+.laystrademark{
+    font-size: 21px;
+    margin-top: -37px;
+    margin-left: 94px;
+}
+
+.laysviewall{
+    height: 40px;
+    width: 115px;
+    
+    border-radius: 30px;
+    margin-top: 65px;
+    margin-left: 13px;
+    padding-left: 29px;
+    padding-top: 10px;
+    
+    font-size: 17px
+}
+
+.viewall{
+    background-color: #da291c;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.viewall:hover{
+    background-color: #ffe600;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.laysb{
+    height: 516px;
+    width: 336px;
+    background-color: #83d8ee;
+    position: absolute;
+    margin-top: 176px;
+    margin-left: 417px;
+}
+
+.laysb:hover{
+    cursor: pointer;
+}
+
+.laysbimage{
+    height: 335px;
+    width: 336px;
+    
+
+}
+.laysbcontent{
+    height: 86px;
+    width: 276px;
+    color: white;
+    margin-top: 28px;
+    font-size: 20px;
+    margin-left: 15px;
+    
+}
+.laysbtrademark{
+    font-size: 14px;
+    margin-top: -26px;
+    margin-left: 65px;
+}
+.laysbmotto{
+    font-size: 31px;
+    margin-top: 17px;
+    margin-left: 0px;
+}
+.laysbviewall{
+    height: 40px;
+    width: 115px;
+   
+    border-radius: 30px;
+    margin-top: 7px;
+    margin-left: 15px;
+    padding-left: 29px;
+    padding-top: 10px;
+   
+    font-size: 17px;
+}
+
+
+.laysd{
+    height: 516px;
+    width: 336px;
+    background-color: #383a6f;
+    position: absolute;
+    margin-left: 753px;
+    margin-top: 176px;
+}
+
+.laysd:hover{
+    cursor: pointer;
+}
+
+.laysdimage{
+    height: 335px;
+    width: 336px;
+    
+
+}
+
+.laysdcontent{
+    height: 40px;
+    width: 150px;
+    color: white;
+    margin-top: 28px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.laysdtrademark{
+    font-size: 14px;
+    margin-top: -26px;
+    margin-left: 65px;
+}
+
+.laysdmotto{
+    font-size: 31px;
+    margin-top: 18px;
+    margin-left: 0px;
+}
+
+.laysdviewall{
+    height: 40px;
+    width: 115px;
+    
+    border-radius: 30px;
+    margin-top: 52px;
+    margin-left: 15px;
+    padding-left: 29px;
+    padding-top: 10px;
+    
+    font-size: 17px;
+}
+
+
+
+
+
+
+.recipes{
+    height: 752.51px;
+    width: 1170px;
+    background-color: #f6be07;
+    margin-top: -227px;
+
+    
+}
+
+.recipes1{
+    height: 50%;
+    width: 1170px;
+    background: no-repeat;
+    background-position-x:100%;
+}
+
+.recipes2{
+    height: 50%;
+    width: 1170px;
+    background: no-repeat;
+    background-position-y:100%;
+}
+
+.videos{
+    height: 638px;
+    width: 1170px;
+    background-color: #00aa4f;
+    margin-top: -226px;
+
+}
+
+.videos1{
+    height: 50%;
+    width: 1170px;
+    background: no-repeat;
+
+}
+
+.videos2{
+    height: 50%;
+    width: 1170px;
+    background: no-repeat;
+    background-position-y: 100%;
+}
+.getsocial{
+    height: 791px;
+    width: 1170px;
+    background-color: #00aae7;
+    margin-top: -225px
+}
+
+.getsocial1{
+    height: 50%;
+    width: 1170px;
+    background: no-repeat;
+    background-position-y: 0%;
+    
+}
+.getsocial2{
+    height: 50%;
+    width: 1170px;
+    background: no-repeat;
+    background-position-y: 100%;
+    
+}
+.footer{
+    height: 174px;
+    width: 1170px;
+    background-color: orangered;
+    margin-top: -226px;
+}
+
+.learnmore{
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: relative;
+    background: #da291c;
+    width: 133.03px;
+    height: 39px;
+    border-radius: 20px;
+    border: transparent;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    top: 83%;
+    left: 44%;
+}
+
+.learnmore:hover{
+    color: #000;
+    background: #ffe600;
+    cursor: pointer;
+}
+
+.dot{
+    position: relative;
+    left: 47%;
+    top: 85%;
+
+}
+
+.dot1{
+    
+    width: 15px;
+    height: 15px;
+    background: #da291c;
+    border-radius: 25px;
+    border-color: transparent;
+    margin-right: 4px;
+}
+
+
+
+.dot2{
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 25px;
+    border-color: transparent;
+    margin-right: 5px;
+}
+
+
+.dot3{
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 25px;
+    border-color: transparent;
+}
+
+.dot2:hover{
+    background: #da291c;
+    cursor: pointer;
+    
+}
+.dot3:hover{
+    background: #da291c;
+    cursor: pointer;
+}
+
+.dotproduct{
+    position: relative;
+    left: 557px;
+    top: 713px;
+
+}
+
+.dotproduct1{
+    
+    width: 15px;
+    height: 15px;
+    background: #ffe600;
+    border-radius: 25px;
+    border-color: transparent;
+    margin-right: 4px;
+}
+
+
+
+.dotproduct2{
+    width: 15px;
+    height: 15px;
+    background: #961612;
+    border-radius: 25px;
+    border-color: transparent;
+    margin-right: 5px;
+}
+
+
+.dotproduct3{
+    width: 15px;
+    height: 15px;
+    background: #961612;
+    border-radius: 25px;
+    border-color: transparent;
+}
+
+
+.dotproduct2:hover{
+    background: #ffe600;
+    cursor: pointer;
+    
+}
+.dotproduct3:hover{
+    background: #ffe600;
+    cursor: pointer;
+    
+}
+
+.recipe{
+    margin-top: -753px;
+    
+}
+
+.laysbrownie{
+    height: 482px;
+    width: 313px;
+    background-color: #fee002;
+    position: absolute;
+    margin-top: 176px;
+    margin-left: 82px;
+   
+}
+
+.laysbrownie:hover{
+    cursor: pointer;
+}
+
+.laysbrownieimage{
+    height: 279px;
+    width: 313px;
+}
+
+.laysbrowniecontent{
+    height: 40px;
+    width: 215px;
+    color: black;
+    margin-top: 30px;
+    font-size: 19px;
+    margin-left: 29px;
+}
+
+.laysbrownietrademark{
+    font-size: 13px;
+    margin-top: -76px;
+    margin-left: 62px;
+}
+
+
+.laysbrownieviewall{
+    height: 40px;
+    width: 144px;
+    border-radius: 30px;
+    margin-top: 62px;
+    margin-left: 28px;
+    padding-left: 27px;
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+.viewrecipe{
+    background-color: #da291c;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.viewrecipe:hover{
+    background-color: #00aae7;
+    color: black;
+    cursor: pointer;
+    
+}
+.laysmagic{
+    height: 482px;
+    width: 313px;
+    background-color: #fee002;
+    position: absolute;
+    margin-top: 176px;
+    margin-left: 428px;
+}
+
+.laysmagic:hover{
+    cursor: pointer;
+}
+
+.laysmagicimage{
+    height: 279px;
+    width: 313px;
+
+}
+.laysmagiccontent{
+    height: 86px;
+    width: 276px;
+    color: black;
+    margin-top: 30px;
+    font-size: 19px;
+    margin-left: 32px;
+    
+}
+.laysmagictrademark{
+    font-size: 14px;
+    margin-top: -50px;
+    margin-left: 62px;
+}
+
+.laysmagicviewall{
+    height: 40px;
+    width: 144px;
+    border-radius: 30px;
+    margin-top: 16px;
+    margin-left: 31px;
+    padding-left: 29px;
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+.layschicken{
+    height: 482px;
+    width: 313px;
+    background-color: #fee002;
+    position: absolute;
+    margin-left: 775px;
+    margin-top: 176px;
+}
+
+.layschicken:hover{
+    cursor: pointer;
+}
+
+.layschickenimage{
+    height: 279px;
+    width: 313px;
+
+}
+
+.layschickencontent{
+    height: 40px;
+    width: 255px;
+    color: black;
+    margin-top: 28px;
+    font-size: 19px;
+    margin-left: 31px;
+}
+.layschickentrademark{
+    font-size: 14px;
+    margin-top: -49px;
+    margin-left: 62px;
+}
+
+.layschickenmotto{
+    font-size: 31px;
+    margin-top: 18px;
+    margin-left: 0px;
+}
+
+.layschickenviewall{
+    height: 40px;
+    width: 144px;
+    border-radius: 30px;
+    margin-top: 63px;
+    margin-left: 27px;
+    padding-left: 29px;
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+.layschickentrademark2{
+    font-size: 14px;
+    margin-top: -17px;
+    margin-left: 219px
+}
+
+.rightarrow2{
+    height: 51px;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: -29px;
+
+}
+
+.rightarrow2:hover{
+    filter: brightness(1.3);
+      cursor: pointer;
+}
+
+.buttonright2{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: transparent;
+    position: absolute;
+    margin-left: 1090px;
+    margin-top: 387px;
+}
+
+.leftarrow2{
+    height: 51px;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: -31px;
+    
+    
+}
+.leftarrow2:hover{
+    filter: brightness(1.3);
+    cursor: pointer;
+}
+
+
+.buttonleft2{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: transparent;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 387px;
+   
+}
+
+.laysvideo{
+    height: 383px;
+    width: 680px;
+    position: absolute;
+    margin-top: -465px;
+    margin-left: 82px;
+}
+.iframeclass{
+    height: 383px;
+    width: 680px;
+
+}
+
+.dotrecipe{
+    position: relative;
+    left: 567px;
+    top: 666px;
+}
+
+.dotrecipe1{
+    
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 25px;
+    border-color: transparent;
+    margin-right: 4px;
+}
+
+.dotrecipe2{
+    width: 15px;
+    height: 15px;
+    background: ccc;
+    border-radius: 25px;
+    border-color: transparent;
+    margin-right: 5px;
+}
+
+.dotrecipe2:hover{
+    background: black;
+    cursor: pointer;
+    
+}
+
+.videohead{
+    margin-top: -595px;
+    height: 95px;
+    width: 400px;
+    position: absolute;
+    margin-left: 82px;
+    
+}
+
+.videoheadsize{
+    font-size: 90px;
+}
+
+.laysvideocontent{
+    height: 86px;
+    width: 413px;
+    color: white;
+    margin-top: -329px;
+    font-size: 31px;
+    margin-left: 780px;
+    position: absolute;
+    
+}
+
+.laysvideocontent{
+    cursor: default;
+}
+
+
+.viewmore{
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: absolute;
+    background: #da291c;
+    width: 133.03px;
+    height: 39px;
+    border-radius: 20px;
+    border: transparent;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: -268px;
+    margin-left: 891px;
+}
+
+.viewmore:hover{
+    color: #000;
+    background: #ffe600;
+    cursor: pointer;
+}
+
+.dotvideo{
+    position: absolute;
+    margin-left: 383px;
+    margin-top: -63px;
+
+}
+
+.dot1video{
+    
+    width: 15px;
+    height: 15px;
+    background: #da291c;
+    border-radius: 25px;
+    border-color: transparent;
+    margin-right: 4px;
+}
+
+
+
+.dot2video{
+    width: 15px;
+    height: 15px;
+    background: 00602c;
+    border-radius: 25px;
+    border-color: transparent;
+    margin-right: 5px;
+}
+
+
+.dot3video{
+    width: 15px;
+    height: 15px;
+    background: 00602c;
+    border-radius: 25px;
+    border-color: transparent;
+}
+
+.dot2video:hover{
+    background: #da291c;
+    cursor: pointer;
+    
+}
+.dot3video:hover{
+    background: #da291c;
+    cursor: pointer;
+}
+
+.getsocialhead{
+    margin-top: -751px;
+    height: 95px;
+    width: 441px;
+    position: absolute;
+    margin-left: 82px;
+}
+    
+
+.getsocialheadsize{
+    font-size: 90px;
+}
+
+.getsocialcontent{
+    width: 1010px;
+    height: 505px;
+    background: white;
+    position: absolute;
+    margin-top: -609px;
+    margin-left: 80px;
+    
+}
+.getsocialone{
+    height: 252.5px;
+    width: 252.5px;
+    float:left;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.getsocialtwo{
+    height: 252.5px;
+    width: 252.5px;
+    float:left;
+    background-position: center;
+    background-size: cover;
+}
+
+.getsocialthree{
+    height: 252.5px;
+    width: 252.5px;
+    float:left;
+    background-position: center;
+    background-size: cover;
+}
+
+.getsocialfour{
+    height: 252.5px;
+    width: 252.5px;
+    float:left;
+    background-position: center;
+    background-size: cover;
+}
+
+.getsocialfive{
+    height: 252.5px;
+    width: 252.5px;
+    float:left;
+    background-position: center;
+    background-size: cover;
+}
+
+.getsocialsix{
+    height: 252.5px;
+    width: 252.5px;
+    float:left;
+    background-position: center;
+    background-size: cover;
+}
+
+.getsocialseven{
+    height: 252.5px;
+    width: 252.5px;
+    float:left;
+    background-position: center;
+    background-size: cover;
+}
+
+.getsocialeight{
+    height: 252.5px;
+    width: 252.5px;
+    float:left;
+    background-position: center;
+    background-size: cover;
+}
+.playbutton{
+    color: white;
+    filter: invert(1);
+    margin-left: 97px;
+    margin-top: 101px;
+    filter: t;
+    opacity: 0.5;
+}
+
+.playbuttonimg{
+    height: 62px;
+    width: 61px;
+
+}
+
+.endoptions{
+    margin-left: 91px;
+    
+    position: absolute;
+    margin-top: 3807px;
+    margin-left: 279px;
+    
+}
+
+.endoptions button{
+    border: transparent;
+    background-color: transparent;
+    font-size: 15px;
+    letter-spacing: -0.05em;
+    
+}
+
+
+
+.endborder{
+   
+    border-color: transparent;
+}
+.contactus{
+    width: 87.3px;
+    margin-left: -2px;
+    height: 41px;
+    border-color: transparent;
+    
+    
+    
+}
+.faqs{
+    width: 56.89px;
+    margin-left: 12px;
+    height: 41px;
+    border-color: transparent;
+}
+
+.terms{
+    width: 133.84px;
+    margin-left: 11px;
+    height: 41px;
+    border-color: transparent;
+}
+.privacy{
+    width: 105.99px;
+    margin-left: 11px;
+    height: 41px;
+    border-color: transparent;
+}
+.pepsi{
+    width: 148.91px;
+    margin-left: 9px;
+    height: 41px;
+    border-color: transparent;
+}
+.accessibility{
+    width: 157.86px;
+    margin-left: 9px;
+    height: 41px;
+    border-color: transparent;
+}
+
+.cookie{
+    border-radius: 0;
+    margin-left: 12px;
+    border-width: 1px;
+    height: 41px;
+    padding-top: 0px;
+    width: 139px;
+    padding-right: 1px;
+}
+
+.endoptions button:hover{
+    background-color: #da291c;
+    color: #fff;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.fb{
+    margin-top: 39px;
+    margin-left: 504px;
+
+}
+.x{
+    margin-top: 20px;
+    margin-left: 42px;
+}
+.in{
+    margin-top: 20px;
+    margin-left: 47px;
+}
+.you{
+    margin-top: 20px;
+    margin-left: 45px;
+
+}
+.logolast{
+    margin-top: 3860px;
+    margin-left: 693px;
+    position: absolute;
+}
+
+.logolastimage{
+    height: 91px;
+    width: 89px;
+}
+
+.copyright{
+    position: absolute;
+    margin-top: 3968px;
+    margin-left: 591px;
+    font-size: 12px;
+}
